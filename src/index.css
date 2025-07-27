@@ -1,0 +1,32 @@
+/* src/index.css */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px; /* Tamaño base más grande */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Aumentar el tamaño de todos los textos */
+h1, h2, h3, h4, h5, h6,
+p, label, input, button, a {
+  font-size: 1.1rem;
+}
+
+/* Aumentar el tamaño de los inputs */
+input, button, select, textarea {
+  font-size: 1.1rem;
+  padding: 12px !important;
+}
