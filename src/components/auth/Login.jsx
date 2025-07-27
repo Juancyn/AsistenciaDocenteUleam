@@ -1,6 +1,7 @@
 // src/components/auth/Login.jsx
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useAuth } from '../../context/AuthContext';
 import Navbar from '../layout/Navbar';
 import Footer from '../layout/footer';
@@ -204,7 +205,7 @@ const Login = () => {
             <button type="submit">Iniciar Sesión</button>
             
             <div className="acciones-extra">
-              <a href="/recuperar-clave">¿Olvidó la contraseña?</a>
+              <Link to="/recuperar-clave">Olvidó la contraseña?</Link>
             </div>
             
             <div className="sesion-microsoft">
