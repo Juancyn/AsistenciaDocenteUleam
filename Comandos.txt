@@ -1,0 +1,5 @@
+npm create vite@latest asistencia-docentes -- --template react
+cd asistencia-docentes
+npm install
+npm install react-router-dom react-icons date-fns
+npm run dev
